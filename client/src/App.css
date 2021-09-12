@@ -1,0 +1,42 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    background: antiquewhite;
+    
+}
+
+.heading {
+    font-size: 45pt;
+    font-weight: bold;
+    text-align: center;
+    color:darkorange;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    min-height: 400px;
+    padding: 30px;
+}
+
+.task_cont {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.task {
+    flex-grow: 1;
+    margin-left: 5px;
+    color:darkorange;
+    font-weight: 500;
+    font-size: 17pt;
+}
+
+.line_through {
+    text-decoration: line-through;
+}
